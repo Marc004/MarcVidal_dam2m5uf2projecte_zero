@@ -1,1 +1,1 @@
-saldkalsd
+En aquesta continuació projecte guiat posarem en pràctica els conceptes vistos, aprendrem de nous i practicarem les diferents comandes existents a Git.

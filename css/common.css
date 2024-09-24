@@ -1,0 +1,104 @@
+/* Selector Universal. Afecta a totes les etiquetes (*) */
+* {
+    /* ! Estil de lletra, hay comas entre cada estilo, por si el ordenador no detecta el tipo de letra, 
+    ! es decir, son el mismo estilo de letra pero escrito en diferentes formas */
+    font-family: Arial, Helvetica, sans-serif; 
+    /* ! Mida de la lletra  (Min 14 px)*/
+    font-size: 14px;
+}
+
+body {
+    background: url('./../img/fondo.jpg');
+
+    /* ! La imagen no sera repetida, tambien se puede poner que se repita de manera horitzontal, este seria con el repeat-x  */
+    background-repeat: no-repeat;
+
+    /* ! Que nos ocupe la imagen un 100% de la web */
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+/* * LINK - Aplica estils a un enllaç o link que no s'ha visitat */
+nav a:link {
+    text-decoration: none;
+
+    /* ! Color de la lletra */
+    color: whitesmoke;
+
+    /* ! Color del fons */
+    background: rgb(5, 5, 86);
+
+    /* ! Les lineas del boto  */
+    border: solid 1px #000;
+    border-radius: 2px;
+
+    /* ! Dona un sombrejat al objecte o contanidor, aquesta hombra no és veu, pero amb el box-shadow la movem */
+    /* ! La primera es l'eix x. la segona es l'eix Y y el tercer la difuminació i el quart la intensitat o gruix */
+    /* ! Si posem el valor en negativo cambia la direcció cap a la esquerra, en el cas de l'eix x cap adalt */
+    box-shadow: 1px 2px 0px #000;
+
+    /* ! Marges */
+    padding: 5px;
+}
+
+/* * VISITED - Aplica estil a un enllaç ja visitat */
+nav a:visited {
+    /* ! Color de fons i de lletra */
+    background-color: rgb(5, 5, 86);
+    color: rgb(103, 20, 103);
+}
+
+header > img {
+    /* ! Marges */
+    margin: 0%;
+    padding: 0%;
+
+    /* ! Alçada i amplada */
+    width: 100%;
+    height: 50vh;
+
+    /* ! Et posa la imatge al 100% d'altura y anchura de la tabla */
+    background-size: 100% 100%;
+
+    /* ! Positio on posara la imatge, adalt a la esquerra, aixó s'utilitza sobretot quan es una imatge petita */
+    /* ! Amb center center, te la posa en el mig del mig, aixó també es pot fer en parcentatge */
+    background-position: center center;
+    background-position: 100% 100%; 
+}
+
+nav {
+    /* ! Marges */
+    margin: 3%;
+    border-top-width: 10%;
+    color: white;
+
+    /* ! Propietat css que afecta al text, justify per fer que és quedi cuadrat, center per el mig */
+    text-align: center;
+
+    /* ! Posar en negreta */
+    font-weight: bold;
+    
+}
+
+footer {
+    /* ! Color de la lletra */
+    color: white;
+    /* ! Marges */
+    margin: 3%;
+    border-top-width: 10%;
+
+    /* ! Propietat css que afecta al text, justify per fer que és quedi cuadrat, center per el mig */
+    text-align: center;
+
+    /* ! Posar en negreta */
+    font-weight: bold;
+}
+
+main {
+    min-height: 100vh;
+}
+
+footer a img {
+    min-height: 60px;
+    width: 105px;
+}

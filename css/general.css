@@ -1,0 +1,141 @@
+#Defini h2 {
+    /* ! Marges */
+    margin: 3%;
+    margin-bottom: 5px;
+    padding: 2%;
+    border-top-width: 10%;
+
+    /* ! Color de la lletra */
+    color: beige;
+
+    /* ! Color de fons del tipus block  */
+    border: solid 5px red;
+    background-color: rgb(112, 24, 24);
+
+    /* ! Dona un sombrejat al objecte o contanidor, aquesta hombra no és veu, pero amb el box-shadow la movem */
+    /* ! La primera es l'eix x. la segona es l'eix Y y el tercer la difuminació i el quart la intensitat o gruix */
+    /* ! Si posem el valor en negativo cambia la direcció cap a la esquerra, en el cas de l'eix x cap adalt */
+    box-shadow: 2px 2px 3px 5px rgb(151, 132, 29);
+
+    /* ! Propietat css que afecta al text, justify per fer que és quedi cuadrat, center per el mig */
+    text-align: center;
+
+    /* ! Per posar en negreta el text */
+    font-weight: bold;
+
+    /* ! Mida de la lletra  (Min 14 px)*/
+    font-size: 26px;
+}
+
+#Defini h2 + p {
+        /* ! Marges */
+        margin: 3%;
+        padding: 1px;
+    
+        /* ! Per donar forma a la caixa o identificar la caixa, amb solid es la linea sera solida, 2px es el gruix, també pots posar el color */
+        border: solid 5px blue;
+    
+        /* ! Dona un sombrejat al objecte o contanidor, aquesta hombra no és veu, pero amb el box-shadow la movem */
+        /* ! La primera es l'eix x. la segona es l'eix Y y el tercer la difuminació i el quart la intensitat o gruix */
+        /* ! Si posem el valor en negativo cambia la direcció cap a la esquerra, en el cas de l'eix x cap adalt */
+        box-shadow: 2px 2px 3px 5px rgb(3, 3, 128);
+    
+        /* ! Color de la lletra */
+        color: black;
+    
+        /* ! Color de fons del tipus block  */
+        background-color: dodgerblue;
+    
+        /* ! Donar una grandaria al bordeix d'adalt */
+        border-top-width: 10%;
+    
+        /* ! Espai entre paraules */
+        word-spacing: normal;
+    
+        /* ! Espai entre lletres */
+        letter-spacing: 1px;
+    
+        /* ! Cada primera lletra de la paraula sigui mayuscula */
+        text-transform: capitalize;
+    
+        /* ! Propietat css que afecta al text, justify per fer que és quedi cuadrat, center per el mig */
+        text-align: center;
+    
+}
+
+#Contenidor {
+    /* ! Marges */
+    margin: 3%;
+    padding: 1px;
+
+    /* ! Per donar forma a la caixa o identificar la caixa, amb solid es la linea sera solida, 2px es el gruix, també pots posar el color */
+    border: solid 5px blue;
+
+    /* ! Dona un sombrejat al objecte o contanidor, aquesta hombra no és veu, pero amb el box-shadow la movem */
+    /* ! La primera es l'eix x. la segona es l'eix Y y el tercer la difuminació i el quart la intensitat o gruix */
+    /* ! Si posem el valor en negativo cambia la direcció cap a la esquerra, en el cas de l'eix x cap adalt */
+    box-shadow: 2px 2px 3px 5px rgb(3, 3, 128);
+
+    /* ! Color de la lletra */
+    color: black;
+
+    /* ! Color de fons del tipus block  */
+    background-color: dodgerblue;
+
+    /* ! Donar una grandaria al bordeix d'adalt */
+    border-top-width: 10%;
+
+    /* ! Espai entre paraules */
+    word-spacing: normal;
+
+    /* ! Espai entre lletres */
+    letter-spacing: 1px;
+
+    /* ! Cada primera lletra de la paraula sigui mayuscula */
+    text-transform: capitalize;
+
+    /* ! Propietat css que afecta al text, justify per fer que és quedi cuadrat, center per el mig */
+    text-align: center;
+}
+
+div ~ h2 {
+    /* ! Marges */
+    margin: 3%;
+    margin-bottom: 5px;
+    padding: 2%;
+    border-top-width: 10%;
+
+    /* ! Color de la lletra */
+    color: beige;
+
+    /* ! Color de fons del tipus block  */
+    border: solid 5px red;
+    background-color: rgb(112, 24, 24);
+
+    /* ! Dona un sombrejat al objecte o contanidor, aquesta hombra no és veu, pero amb el box-shadow la movem */
+    /* ! La primera es l'eix x. la segona es l'eix Y y el tercer la difuminació i el quart la intensitat o gruix */
+    /* ! Si posem el valor en negativo cambia la direcció cap a la esquerra, en el cas de l'eix x cap adalt */
+    box-shadow: 2px 2px 3px 5px rgb(151, 132, 29);
+
+    /* ! Propietat css que afecta al text, justify per fer que és quedi cuadrat, center per el mig */
+    text-align: center;
+
+    /* ! Per posar en negreta el text */
+    font-weight: bold;
+
+    /* ! Mida de la lletra  (Min 14 px)*/
+    font-size: 26px;
+}
+
+.img {
+    /* ! Alçada i amplada */
+    width: 100%;
+    height: 100vh;
+    /* ! Background contain et posa de manera perfecta en la tabla, sense retallarla, y deixa espai */
+    background-size: contain; 
+
+    /* ! Posició on posara la imatge, adalt a la esquerra, aixó s'utilitza sobretot quan es una imatge petita */
+    /* ! Amb center center, te la posa en el mig del mig, aixó també es pot fer en parcentatge */
+    background-position: center center;
+    background-position: 100% 100%;
+}

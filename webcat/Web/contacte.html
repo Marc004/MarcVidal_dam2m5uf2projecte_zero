@@ -1,0 +1,142 @@
+<!DOCTYPE html> <!-- Tipus de Document HTML-->
+<html lang="es"><!-- Idioma (es de español) -->
+<head> <!-- estils, titul, codificació de la propia pagina web,etc   ex: ç   (metadades) -->
+    <meta charset="UTF-8"> <!-- tipus de codificació que accepta totes les lletras y teclas especials de cada idioma 
+        ex: les lletres romaniques que seria "ISO-8859-1", en cas de no codificació saldria les lletras rares amb un ? -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Es para ajustar la mida de les coses a
+        la web -->
+    <link rel="shortcut icon" href="../img/images.webp" type="image/x-png"> <!-- diferents extensions com la png 
+        o en aquest cas icon -->
+    <title>Contacte - League of Legends</title> <!-- Surt a la pestaña com a titul -->   
+    <link rel="stylesheet" href="../css/contacte.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+    <!--Header - titols -->
+    <header>
+        <!-- Portada -->
+        <img src="./../img/LoL-3.webp" alt="Logo League of legends">
+        <hr> <!-- Per separar seccions ¡ i li posem la / per definir com que es tanca ella mateixa-->
+        <!--Menú de navegació--> 
+        <nav>
+            <p>Menú de navegació:        
+                <a href="../index.html">Inici</a>
+                <a href="./general.html">General</a>
+                <a href="./fotos.html">Fotos</a>
+                <a href="./videos.html">Videos</a>
+                <a href="./agenda.html">Agenda</a>
+                <a href="./contacte.html">Contacte</a> 
+            </p>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- Main - Contingut principal-->
+    <main>
+        <h2>Coaching and RIOT GAMES EUROPE HOLDINGS LIMITED de League of Legends: </h2> <!-- Per representar els titols, noticias destacadas, drons amb camara i patinetrs electrics-->
+            <!-- Google Maps -->
+
+        <div>
+        <span>
+            <iframe id="Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2987.0322070844245!2d1.6871961!3d41.525243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4670d375b1fc5%3A0xaa62ad44697934fb!2sCoaching%20League%20Of%20Legends!5e0!3m2!1ses!2ses!4v1664666707981!5m2!1ses!2ses"></iframe>
+            <iframe id="Maps" src="https://www.bing.com/maps/embed?h=400&w=500&cp=53.34277106988145~-6.2628936767578125&lvl=19&typ=d&sty=r&src=SHELL&FORM=MBEDV8"></iframe>
+        </span>
+
+        <h3>Teléfono de Información: </h3>
+            <p> <!-- Conjunt de text que es separa, aquest contenidor es de tipus block -->
+                Telefónica <strong>11811</strong> a través del cual puede obtener información y datos de contacto de múltiples empresas. Servicio operado por agentes especializados desde España, disponible para operadores fijos y móviles. 
+                El precio del servicio es de tres euros con un céntimo por minuto, impuestos incluidos. El servicio de información telefónica <strong>11811</strong> se presta por un operador independiente.
+            </p>
+        </div>
+
+        <br>
+        <h2>Atencion al cliente: </h2>
+
+    
+        <div id="Formulari">
+            <br>
+            <form action="./formulariEnviat.html" method="get">
+                <br>
+                <!-- el get navega per el header -->
+                <!--Text general (text) Nom, cognoms, dades d'adreça, basicament text, required és un camp o valor obligatori pusar (required)-->
+                <label for="idNom">Nom:</label>
+                <!-- Hi d'haveri un label per cada input -->
+                <input id="idNom" type="text" name="nom" required placeholder="Pol">
+                
+                <br>
+                <!-- placeholder és una guia, per exemple Ruiz (placeholder) -->
+                Cognom: <input type="text" name="cognom"  placeholder="Ruiz">
+                
+                <br>
+                <!-- el get navega per el header -->
+                <!--Text general (text) Nom, cognoms, dades d'adreça, basicament text, required és un camp o valor obligatori pusar (required)-->
+                <label for="idNick">Nickname:</label>
+                <!-- Hi d'haveri un label per cada input -->
+                <input id="idNick" type="text" name="nom" required placeholder="Swonk12">
+                
+                <br>
+                Correu: <input type="email" name="correu" required placeholder="X_polruiz_X@gmail.com">
+                
+                <br>
+                <!-- Calandari (input:date) -->
+                Data: <input type="date" name="data">
+                
+                <br>
+                <!-- Per filtra preus per saber quant vols pagar (input:range) -->
+                Rango de satisfacion: Mal <input type="range" name="rang" > Bien
+                
+                <br>
+                <!-- Selecció única, aquest desplega les opcions (select), amb el option per saber las opcions que hi ha  -->
+                Asunto: <select name="Asuntos" required >
+                    <option value="Garena Transition Support">Garena Transition Support</option>
+                    <option value="Discutir una suspensión, bloqueo o restricción de cuenta personal">Discutir una suspensión, bloqueo o restricción de cuenta personal</option>
+                    <option value="Informar sobre un jugador">Informar sobre un jugador</option>
+                    <option value="Recuperar mi cuenta">Recuperar mi cuenta</option>
+                    <option value="Problemas técnicos: instalación, lag o cierres inesperados">Problemas técnicos: instalación, lag o cierres inesperados</option>
+                    <option value="Dudas o problemas sobre el juego y reembolso de contenido">Dudas o problemas sobre el juego y reembolso de contenido</option>
+                    <option value="Gestión de cuenta, solicitudes de datos o eliminación">Gestión de cuenta, solicitudes de datos o eliminación</option>
+                    <option value="Facturación, pago y reembolsos de divisa prémium">Facturación, pago y reembolsos de divisa prémium</option>
+                    <option value="Pregunta general">Pregunta general</option>
+                    <option value="Me ha surgido problemas al iniciar sesión para cambiar de nombre de usuario">Me ha surgido problemas al iniciar sesión para cambiar de nombre de usuario</option>
+                </select>
+                <br>
+                <!-- Es per posar un text, així com els comentaris (textarea) -->
+                <textarea id="Commenttam" name="missatge" cols="122" rows="10" required placeholder="texto"></textarea>
+                <br>
+                <!-- Entrega fitxer (input:file) -->
+                Fitxer del asunto: <input type="file" name="fitxer">
+                <br>
+                <!-- Boto d'enviar (sumbit) -->
+                <!--Hacer un boton para que se envie las respuestas -->  
+                <input type="submit" value="Enviar Formulari">
+                
+            </form>
+        </div>
+        <!-- Formularis HTML5 -->
+
+    </main>
+    
+    <!--Footer- Copyright -->
+    <footer>
+        <hr>
+        &copy;Telefonogratuito &copy;Google Maps
+        <a href="https://www.telefonogratuito.com/"></a>
+        <hr>
+        <!-- Xarxes Socials -->
+        <!-- Enllaços o ipervincles (a) Anchor (Menú de navegació), per generar els menus de navegació -->
+        <!-- entre "" el enllaç-->
+		<a href="https://en.wikipedia.org/wiki/League_of_Legends" target="_blank"><img src="./../img/Wiki.png" alt="wikipedia"></a>
+		<a href="https://www.leagueoflegends.com/" target="_blank"><img src="./../img/images.webp" alt="Web oficial de League of Legends"></a>
+		<a href="https://support-leagueoflegends.riotgames.com/" target="_blank"><img src="./../img/RiotGames.jpg" alt="support de league of legends"></a>
+		<a href="https://twitter.com/lol_es"><img src="./../img/Twitter.png" alt="Twitter"></a>
+		<a href="https://www.youtube.com/LeagueofLegendsES" target="_blank"><img src="./../img/YouTube.png" alt="Youtube"></a>
+		<a href="https://www.instagram.com/leagueoflegends/" target="_blank"><img src="./../img/Instagram.png" alt="Instagram"></a>
+		<a href="https://www.facebook.com/LeagueOfLegendsES" target="_blank"><img src="./../img/facebook.png" alt="Facebook"></a>
+		<a href="https://vk.com/leagueoflegends" target="_blank"><img src="./../img/vk.png" alt="VK"></a>
+		<a href="https://www.reddit.com/r/leagueoflegends/" target="_blank"><img src="./../img/reddit.png" alt="Reddit"></a>
+		<a href="https://discord.com/invite/lol" target="_blank"><img src="./../img/discord.jpg" alt="Discord"></a>
+		<a href="https://www.twitch.tv/directory/game/League%20of%20Legends" target="_blank"><img src="./../img/twitch.png" alt="Twitch"></a>
+		
+    </footer>
+</body>
+</html>

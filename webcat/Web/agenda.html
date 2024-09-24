@@ -1,0 +1,146 @@
+<!DOCTYPE html> <!-- Tipus de Document HTML-->
+<html lang="es"> <!-- Idioma (es = español) -->
+<head> <!-- estils, titul, codificació de la propia pagina web,etc   ex: ç   (metadades) -->
+    <meta charset="UTF-8"> <!-- tipus de codificació que accepta totes les lletras y teclas especials de cada idioma 
+        ex: les lletres romaniques que seria "ISO-8859-1", en cas de no codificació saldria les lletras rares amb un ? -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Es para ajustar la mida de les coses a
+        la web -->
+    <link rel="shortcut icon" href="../img/images.webp" type="image/x-png"> <!-- diferents extensions com la png 
+        o en aquest cas icon -->
+    <title>Agemda - League of Legends</title> <!-- Surt a la pestaña com a titul --> 
+    <link rel="stylesheet" href="../css/agenda.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+    <!--Header - titols -->
+    <header>
+        <!-- Portada -->
+        <img src="./../img/LoL-3.webp" alt="Logo League of legends">
+        <hr> <!-- Per separar seccions ¡ i li posem la / per definir com que es tanca ella mateixa-->
+        <!--Menu de navegació--> 
+        <nav>
+            <p>Menú de navegació:        
+                <a href="../index.html">Inici</a>
+                <a href="./general.html">General</a>
+                <a href="./fotos.html">Fotos</a>
+                <a href="./videos.html">Videos</a>
+                <a href="./agenda.html">Agenda</a>
+                <a href="./contacte.html">Contacte</a> 
+            </p>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- Main - Contingut principal-->
+    <main>
+          <!-- Taules (table)  -->
+    <!-- Etqieuta de fila (tr) -->
+    <!-- Etiqueta de columna solo para el head (th) -->
+    <!-- Etiqueta de columna (td) -->
+    <h1>Versiones programadas de League of Legends: </h1> <!-- Per representar els titols, noticias destacadas, drons amb camara i patinetrs electrics-->
+        <table id="Tabla1">
+            <thead> <!-- Titulos -->
+                <tr> <!-- Fila 1-->
+                    <td>Versión:         </td>
+                    <td>Fecha programada:     </td>
+                </tr>
+            </thead> 
+            <tbody> <!-- Nus o cuerpo -->
+                <tr> <!-- Fila 2-->
+                    <td>12.19</td>
+                    <td>Miércoles, 5 de octubre de 2022</td>
+                </tr>
+                <tr> <!-- Fila 3-->
+                    <td>12.20</td>
+                    <td>Miércoles, 19 de octubre de 2022</td>
+                </tr>
+                <tr> <!-- Fila 4-->
+                    <td>12.21</td>
+                    <td>Miércoles, 2 de noviembre de 2022</td>
+                </tr>
+                <tr> <!-- Fila 5 -->
+                    <td>12.22</td>
+                    <td>Miércoles, 16 de noviembre de 2022</td>
+                </tr>
+                <tr> <!-- Fila 6-->
+                    <td>12.23</td>
+                    <td>Miércoles, 7 de diciembre de 2022</td>
+                </tr>
+            </tbody>
+            <tfoot> <!-- Conclusió o desenllaç -->
+                <tr> <!-- Fila 7 -->
+                    <td colspan="2"> Proximas versiones ... </td> <!-- Per combinar horitzontalment posem colspan="Las casellas que volem combinar"-->
+                </tr>
+            </tfoot>
+        </table>
+
+    <br>
+    <h1>El Mundial de 2022 de League of Legends:</h1> <!-- Per representar els titols, noticias destacadas, drons amb camara i patinetrs electrics-->
+    
+    <!-- Taula combinada  -->
+    <table id="Tabla2">
+        <thead> <!-- Titulos -->
+            <tr> <!-- Fila 1-->
+                <td>Fase:</td>
+                <td>Fecha programada:</td>
+                <td>Ubicación</td>
+            </tr>
+        </thead> 
+        <tbody> <!-- Nus o cuerpo -->
+            <tr> <!-- Fila 2 -->
+                <td>Apertura</td>
+                <td>29 de septiembre al 4 de octubre</td>
+                <td>Arena Esports Stadium del Artz Pedregal, en Ciudad de México (México)</td>
+            </tr>
+            <tr> <!-- Fila 3 -->
+                <td>Grupos</td>
+                <td>7 al 10 de octubre y del 13 al 16 de octubre</td>
+                <td>Hulu Theater del Madison Square Garden, en Nueva York</td>
+            </tr>
+            <tr> <!-- Fila 4 -->
+                <td>Cuartos de final</td>
+                <td>20 al 23 de octubre</td>
+                <td>Hulu Theater del Madison Square Garden, en Nueva York</td>
+            </tr>
+            <tr> <!-- Fila 5 -->
+                <td>Semifinales</td>
+                <td>29 al 30 de octubre</td>
+                <td>State Farm Arena, en Atlanta (Georgia)</td>
+            </tr>
+            <tr> <!-- Fila 6 -->
+                <td>Final</td>
+                <td>5 de noviembre</td>
+                <td>Chase Center, en San Francisco (California)</td>
+            </tr>
+        </tbody>
+        <tfoot> <!-- Conclusió o desenllaç -->
+            <tr> <!-- Fila 7 -->
+                <td colspan="3"> Proximos mundiales ... </td> <!-- Per combinar horitzontalment posem colspan="Las casellas que volem combinar"-->
+            </tr>
+        </tfoot>
+    </table>
+    </main>
+
+    <!--Footer- Copyright -->
+    <footer>
+        <hr> 
+        &copy;League of Legends 
+        <hr>
+        <!-- Xarxes Sociales -->
+        <!-- Enllaços o ipervincles (a) Anchor (Menú de navegació), per generar els menus de navegació -->
+        <!-- entre "" el enllaç-->
+		<a href="https://en.wikipedia.org/wiki/League_of_Legends" target="_blank"><img src="./../img/Wiki.png" alt="wikipedia"></a>
+		<a href="https://www.leagueoflegends.com/" target="_blank"><img src="./../img/images.webp" alt="Web oficial de League of Legends"></a>
+		<a href="https://support-leagueoflegends.riotgames.com/" target="_blank"><img src="./../img/RiotGames.jpg" alt="support de league of legends"></a>
+		<a href="https://twitter.com/lol_es"><img src="./../img/Twitter.png" alt="Twitter"></a>
+		<a href="https://www.youtube.com/LeagueofLegendsES" target="_blank"><img src="./../img/YouTube.png" alt="Youtube"></a>
+		<a href="https://www.instagram.com/leagueoflegends/" target="_blank"><img src="./../img/Instagram.png" alt="Instagram"></a>
+		<a href="https://www.facebook.com/LeagueOfLegendsES" target="_blank"><img src="./../img/facebook.png" alt="Facebook"></a>
+		<a href="https://vk.com/leagueoflegends" target="_blank"><img src="./../img/vk.png" alt="VK"></a>
+		<a href="https://www.reddit.com/r/leagueoflegends/" target="_blank"><img src="./../img/reddit.png" alt="Reddit"></a>
+		<a href="https://discord.com/invite/lol" target="_blank"><img src="./../img/discord.jpg" alt="Discord"></a>
+		<a href="https://www.twitch.tv/directory/game/League%20of%20Legends" target="_blank"><img src="./../img/twitch.png" alt="Twitch"></a>
+		
+    </footer>
+</body>
+</html>
